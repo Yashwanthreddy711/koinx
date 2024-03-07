@@ -5,7 +5,7 @@ import TrendingCoins from './Trendingcoinslist'
 
 const Sidecontainer = () => {
   return (
-    <div className="side-container hidden md:flex md:flex-col gap-6 w-[427px] h-auto ">
+    <div className="side-container hidden md:flex md:flex-col  gap-6 w-[427px] h-auto ">
           <div className="w-full h-[515px] bg-[#0052FE] px-4 py-[31px] flex flex-col gap-y-[19px] rounded-[8px]">
             <div className="w-[327px] h-[182px] gap-[14px] mx-auto">
               <div className="h-20 w-[268px] mx-auto ">
@@ -31,7 +31,7 @@ const Sidecontainer = () => {
               </button>
             </div>
           </div>
-          <div className="w-full bg-white rounded-[8px] p-6 h-[225px] flex flex-col gap-[24px] ">
+          <div className="w-full bg-white rounded-[8px] p-6 h-[300px] flex flex-col gap-[24px] ">
                 <h1 className="font-semibold font-inter text-[24px]">Trending Coins (24h)</h1>
                 <TrendingCoins/>
           </div>

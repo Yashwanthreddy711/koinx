@@ -30,7 +30,7 @@ function TrendingCoins() {
 
   return (
   
-    <div className="flex flex-col gap-[20px] w-[379px] h-[124px]">
+    <div className="md:flex md:flex-col hidden  gap-[20px] w-[379px] h-[124px]">
         {coinsData.map((coin, index) => (
           <Coin
             key={index}

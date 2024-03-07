@@ -6,14 +6,14 @@ import SentimentSection from './SetimentSection'
 import About from './About'
 import Tokenomics from './Tokenomics'
 import TeamCard from './TeamCard'
-import Youmayalslike from './Youmayalsolike'
+
 
 const MainContainer = () => {
   return (
   
-  <div className="container w-[966px] h-full bg-[#EFF2F5] ">
+  <div className="container w-full lg:w-[966px] h-full bg-[#EFF2F5] ">
  
-       <div className="flex flex-col w-full gap-10 p-6">
+       <div className="flex flex-col w-full gap-10 px-6 ">
             <Coininfo/>
             <ToggleSection/>
             <PerformanceSection/>
@@ -21,7 +21,7 @@ const MainContainer = () => {
             <About/>
             <Tokenomics/>
             <TeamCard/>
-            <Youmayalslike/>
+            
   </div>
 </div>
   )

@@ -17,8 +17,8 @@ function Youmayalslike() {
   }, []);
 
   return (
-    <div className="p-8 mt-10 bg-white h-max lg:p-14">
-      <div>
+    <div className="p-8 mt-10 bg-white h-max lg:p-14 px-[54px] rounded-[8px]">
+      <div className="overflow-x-hidden">
         <div className="text-[#202020] text-2xl font-semibold">
           You May Also Like
         </div>

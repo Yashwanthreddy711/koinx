@@ -24,6 +24,7 @@ const Coininfo = () => {
   const [days, setDays] = useState(1);
   const [flag, setFlag] = useState(false);
   const [cryptoData, setCryptoData] = useState(0);
+ 
 
 
   useEffect(() => {
@@ -37,6 +38,7 @@ const Coininfo = () => {
     };
 
     fetchData();
+    setDays(1);
 
     const interval = setInterval(fetchData, 1000);
 
@@ -60,7 +62,7 @@ const Coininfo = () => {
   }, []);
 
   return (
-    <div className='w-full h-[711px] bg-white p-6 rounded-[8px] '>
+    <div className=' w-full h-[420px]  md:h-[711px] bg-white p-6  rounded-[8px] '>
 
 <div className="flex items-center w-full">
         <div>
@@ -134,7 +136,7 @@ const Coininfo = () => {
         </div>
       </div>
 
-      <div className=''>
+      <div className='h-[400px] w-full'>
       {flag ? (
         <Line
           data={{

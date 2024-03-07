@@ -52,7 +52,7 @@ function Tokenomics() {
                     fill="#0082FF"
                   />
                 </svg>
-                <div className="text-[#202020] text-lg font-normal ml-4">
+                <div className="text-[#202020] text-sm md:text-lg font-normal ">
                   Crowdsale investors: 80%
                 </div>
               </div>
@@ -72,7 +72,7 @@ function Tokenomics() {
                     fill="#FAA002"
                   />
                 </svg>
-                <div className="text-[#202020] text-lg font-normal ml-4">
+                <div className="text-[#202020]  text-sm md:text-lg font-normal  ">
                   Foundation: 20%
                 </div>
               </div>
