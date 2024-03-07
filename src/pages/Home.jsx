@@ -9,6 +9,11 @@ import Trendingcoinslist from "../components/Trendingcoinslist";
 import Coininfo from "../components/Coininfo";
 import ToggleSection from "../components/Togglesection";
 import PerformanceSection from "../components/PerformanceSection";
+import SentimentSection from "../components/SetimentSection";
+import About from "../components/About";
+import Tokenomics from "../components/Tokenomics";
+import TeamCard from "../components/TeamCard";
+import Youmayalslike from "../components/Youmayalsolike";
 
 const Home = () => {
   return (
@@ -39,6 +44,12 @@ const Home = () => {
                     <Coininfo/>
                     <ToggleSection/>
                     <PerformanceSection/>
+                    <SentimentSection/>
+                    <About/>
+                    <Tokenomics/>
+                    <TeamCard/>
+                    <Youmayalslike/>
+                  
                    </div>
                     
                </div>
