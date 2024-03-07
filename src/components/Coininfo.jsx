@@ -94,7 +94,7 @@ const Coininfo = () => {
         >
           <svg
             viewBox="0 0 100 100"
-            className={`w-4 fill-current ${
+            className={`w-[10px] fill-current ${
               cryptoData && cryptoData.inr_24h_change < 0
                 ? "text-red-600 rotate-180"
                 : "text-green-600"

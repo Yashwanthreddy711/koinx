@@ -65,7 +65,7 @@ function Coin({ symbol, name, img, changePercentage }) {
       >
         <svg
           viewBox="0 0 100 100"
-          className={`w-4 fill-current ${
+          className={`w-[10px] fill-current ${
             isPositiveChange ? "text-green-600" : "text-red-600"
           }`}
           style={{ transform: isPositiveChange ? "" : "rotate(180deg)" }}
